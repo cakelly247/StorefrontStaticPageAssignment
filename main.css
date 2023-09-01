@@ -1,0 +1,162 @@
+/* Common Elements */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: wheat;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: white;
+  font-size: 2em;
+  padding: 0;
+}
+h3 {
+  font-size: 1.5em;
+  color: black;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+}
+a,
+a:visited {
+  color: white;
+}
+a:hover {
+  color: grey;
+}
+hr {
+  padding: 0;
+  margin: 1.5em 1.5rm 0.75em 0.5em;
+}
+
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3em;
+}
+
+/* header */
+
+header {
+  background-color: black;
+  padding: 0.5em 3em 0 0.5em;
+  margin: 0 0 2em;
+}
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 5em;
+  letter-spacing: 0.05em;
+  margin: 0 0.5em;
+}
+
+/* Nav Bars */
+
+nav {
+  margin: 1em;
+  /* padding: .25em; */
+}
+nav#login {
+  float: right;
+  margin: -4em;
+  padding: 1.5em;
+}
+nav#login ul {
+  list-style: none;
+  margin: -1.5em;
+  padding: 1em;
+}
+nav#login li {
+  display: inline-block;
+}
+nav#login li a,
+nav#login li a:visited {
+  text-decoration: none;
+  padding: 0.5em;
+}
+nav#shopping {
+  font-size: 2em;
+  letter-spacing: 0.05em;
+}
+nav#shopping ul {
+  display: table;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+nav#shopping li {
+  display: table-cell;
+  margin: auto;
+  padding: 0;
+}
+nav#shopping li a,
+nav#shopping li a:visited {
+  text-decoration: none;
+}
+
+/* Main section 1 */
+
+.sectionWrap {
+    display: flex;
+    justify-content: space-between;
+}
+#main2 .sectionWrap{
+    display: flex;
+    flex-direction: column;
+}
+.panel {
+    border: solid #000000 3px;
+    border-radius: 20px;
+    text-align: center;
+}
+.panel img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#main2 .panel {
+    border: none;
+}
+.panelWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    margin-top: 80px;
+}
+section:last-of-type{
+    margin-bottom: 80px;
+}
+
+/* Main section 2 (shop by brand) */
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.footerGroup ul {
+    list-style: none;
+}
+.footerGroup li {
+    display: inline-block;
+}
+.footerGroup li a {
+    text-decoration: none;
+}
+.footerYear{
+    margin: auto 0;
+}
+#main1 a:hover, #main1 a{
+    text-decoration: none;
+}
+#main1 a:hover h3{
+    color: gray;
+}
